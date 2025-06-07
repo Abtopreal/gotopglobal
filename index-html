@@ -1,101 +1,47 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>GoTopGlobal</title>
-  <style>
-    body {
-      margin: 0;
-      font-family: Arial, sans-serif;
-      background-color: #fffaf5;
-      color: #333;
-    }
-    header {
-      background-color: #d5006e;
-      padding: 20px;
-      text-align: center;
-      color: white;
-    }
-    nav {
-      display: flex;
-      justify-content: center;
-      background-color: #fff0f5;
-      padding: 10px;
-    }
-    nav a {
-      color: #d5006e;
-      text-decoration: none;
-      margin: 0 15px;
-      font-weight: bold;
-    }
-    .hero {
-      text-align: center;
-      padding: 50px 20px;
-    }
-    .hero h1 {
-      color: #d5006e;
-    }
-    .cards {
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: center;
-      padding: 20px;
-    }
-    .card {
-      background-color: white;
-      border: 1px solid #eee;
-      border-radius: 8px;
-      width: 300px;
-      margin: 15px;
-      padding: 20px;
-      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-    }
-    .card h3 {
-      color: #d5006e;
-    }
-    footer {
-      text-align: center;
-      background-color: #d5006e;
-      color: white;
-      padding: 10px;
-      position: fixed;
-      width: 100%;
-      bottom: 0;
-    }
-  </style>
+  <meta charset="UTF-8">
+  <title>Welcome to GoTopGlobal</title>
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
   <header>
     <h1>Welcome to GoTopGlobal</h1>
-    <p>Your one-stop hub for AI tools & tech solutions</p>
+    <p>Your source for the latest AI tools and gadgets</p>
   </header>
+
   <nav>
     <a href="index.html">Home</a>
     <a href="blog.html">Blog</a>
     <a href="#contact">Contact</a>
   </nav>
-  <section class="hero">
-    <h1>Discover Amazing AI Tools & Smart Gadgets</h1>
-    <p>Stay updated with the best innovations in AI and automation.</p>
+
+  <section>
+    <h2>About Us</h2>
+    <p>We showcase powerful AI tools that help you work smarter and earn faster.</p>
   </section>
-  <section class="cards">
-    <div class="card">
-      <h3>Top AI Tools</h3>
-      <p>Explore trending AI tools to boost productivity and creativity.</p>
-    </div>
-    <div class="card">
-      <h3>AI Agents</h3>
-      <p>Learn how autonomous AI agents are changing the digital world.</p>
-    </div>
-    <div class="card">
-      <h3>Affiliate Picks</h3>
-      <p>Promote tools and gadgets with affiliate links to earn passively.</p>
-    </div>
+
+  <section>
+    <h2>Latest Tools</h2>
+    <ul>
+      <li>ChatGPT</li>
+      <li>Midjourney</li>
+      <li>Durable.co</li>
+    </ul>
   </section>
+
+  <section id="contact">
+    <h2>Contact Us</h2>
+    <form action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
+      <input type="email" name="email" placeholder="Your Email" required>
+      <textarea name="message" placeholder="Your Message" required></textarea>
+      <button type="submit">Send</button>
+    </form>
+  </section>
+
   <footer>
-    &copy; 2025 GoTopGlobal. All rights reserved.
+    <p>&copy; 2025 GoTopGlobal. All rights reserved.</p>
   </footer>
 </body>
 </html>
